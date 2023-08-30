@@ -1,5 +1,8 @@
 <p>second-parent works!</p>
 <a routerLink="/child-1">second-parent-child-1</a>
 <a routerLink="/child-2">second-parent-child-2</a>
+<br/>
+<button (click)="navigate('child-1')">second-parent-child-1</button>
+<button (click)="navigate('child-2')">second-parent-child-2</button>
 
 <router-outlet></router-outlet>
